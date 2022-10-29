@@ -1,0 +1,145 @@
+
+#catId{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 80vh;
+    height: 110vh;
+}
+
+#remember:checked{
+    background-color: #099aac;
+}
+
+#containment{
+    margin-top: 70px;
+}
+
+.fullBlock {
+    background: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px #099aac;
+    opacity: 90%;
+    position:absolute ;
+    top : 15% ;
+    right: 60%;
+    left : 8% ;
+    height: 90%;
+    width : 30%;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.welcome{
+    color:#28242c;
+    position: relative;
+    font-family: "Sofia";
+    top: 3% ;
+    left:25%;
+    height:15%;
+    width:50%;
+    right: 25%;
+    font-size: 55px;
+}
+
+.form-box
+{
+    position:absolute;
+    width : 100% ;
+    height: 100%;
+}
+
+.button-box
+{
+    top: 20% ;
+    width:100%;
+    position:absolute;
+    border-radius: 30px;
+}
+
+#loginButton{
+    position: absolute;
+    left: 10%;
+    height: 30px;
+    width: 35%;
+    border: 0;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+
+#registerButton {
+    position: absolute;
+    left: 55%;
+    height: 30px;
+    width: 35%;
+    border:0;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.input-group-login
+{
+    top: 100px;
+    position:absolute;
+    width:280px;
+}
+.input-group-register
+{
+    top: 120px;
+    position:absolute;
+    width:280px;
+}
+.input-field
+{
+    width: 100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background: transparent;
+}
+.submit-btn {
+    width: 70%;
+    height:30px;
+    position: absolute;
+    left:5%;
+    cursor: pointer;
+    display: block;
+    margin: 10px;
+    background: #099aac;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#login
+{
+    position: absolute;
+    top : 30% ;
+    width : 60% ;
+    left : 20% ;
+
+}
+#login input
+{
+    color:black;
+    font-size:15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#register
+{
+    position: absolute;
+    top : 30%;
+    width : 60% ;
+    left : 20% ;
+}
+#register input
+{
+    color:black;
+    font-size: 15px;
+    margin: 0;
+}

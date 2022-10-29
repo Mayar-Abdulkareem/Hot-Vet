@@ -1,0 +1,226 @@
+#labelagerange, .outputagerange{
+    color: white;
+}
+ul li a.cart .cart-basket {
+    font-size: .6rem;
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    width: 15px;
+    height: 15px;
+    color: #E8E8E8;
+    background-color: #099aac;
+    border-radius: 50%;
+}
+body{
+    background-color: #2b292d;
+}
+.navbar {
+    background-color: #28242c !important;
+    border: none !important;
+    border-width:0!important;
+}
+#lo{
+    background-color: #28242c;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border: 2px solid #099aac;
+    border-radius: 20px;
+    color: #f8f9fa;
+}
+
+#topLogo{
+    height : 10vh;
+    width : 10vh;
+}
+#hotId{
+    font-family: Brush Script MT;
+    color: #f8f9fa;
+}
+#vetId{
+    color: #099aac;
+    font-family: Courier New;
+}
+
+.footerClass{
+    background-color: #28242c;
+    color: #f8f9fa;
+    text-align: center;
+}
+.btn{
+    background-color: #f8f9fa;
+    border: #f8f9fa solid;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: #099aac;
+    border: #099aac solid;
+    border-radius: 20px;
+}
+
+.container {
+    margin-top: 5vh;
+    position: relative;
+}
+.container-fluid {
+    width:100% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    top: 15vh;
+    left: 4vh;
+    background-color: transparent;
+    color: grey;
+    font-size: larger;
+    font-family: "Fira Code";
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#ageRange {
+    accent-color: #099aac;
+}
+
+.form-select {
+    box-shadow: 0 0 5px #818181;
+}
+
+.form-select:hover {
+    box-shadow: 0 0 5px #099aac;
+}
+
+.form-select:focus {
+    box-shadow: 0 0 5px #099aac;
+}
+
+.container .container-fluid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.flip-card {
+    display: flex;
+    flex-direction: column;
+    margin: 4vh;
+    scale: 1;
+    background-color: transparent;
+    width: 50vh;
+    height: 50vh;
+    /*border: 3px solid #f1f1f1;*/
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+/* Do a horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    position: absolute;
+    transform: rotateY(180deg);
+    /*box-shadow: 0px 0.5rem 1rem #099aac;*/
+}
+
+.petsForAdoption h1 {
+    width: 50px;
+    word-wrap: break-word;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+
+    /*background-color: hsl(187, 66%, 68%, 0.001);*/
+    text-align: center;
+    color: black;
+    background-color: #2b292d;
+}
+
+/* Style the back side */
+.flip-card-back {
+    /*padding: 2vh;*/
+    box-shadow: 0px 0.5rem 1rem #099aac;
+    position: absolute;
+    background-color: #28242c;
+    color: white;
+    font-family:"stenciletta-solid";
+    transform: rotateY(180deg);
+}
+
+.petsForAdoption {
+    border-radius: 50%;
+    height: 45vh;
+    width: 45vh;
+    margin: 0;
+}
+
+.petsForAdoption:hover {
+    box-shadow: 0px 0.5rem 1rem #099aac;
+}
+
+.flip-card-back h1 {
+    background-color: #099aac;
+    margin: 0;
+    font-size: 5vh;
+    font-family: 'Courier New';
+    color: rgb(255, 255, 255);
+}
+
+.flip-card-front h1 {
+    font-family: 'Courier New';
+    border: .5vh solid black;
+    border-radius: 2vh;
+    background-color: #b4e2e8;
+    font-size: 5vh;
+}
+.badopt:hover{
+    background-color: mediumseagreen;
+}
+.bdonate:hover{
+    background-color: rgba(116, 201, 211, 0.99);
+}
+.baskaboutthispet:hover{
+    background-color: #818181;
+}
+.aboutpet{
+    background-color: rgba(99, 96, 101, 0.65);
+}
+.petnamback h1{
+    padding: 0;
+    margin: 0;
+    background-color: #099aac;
+    color: white;
+}

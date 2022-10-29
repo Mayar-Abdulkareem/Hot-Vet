@@ -1,0 +1,232 @@
+
+fieldset {
+    border-top: 2px solid #099aac !important;
+    margin: 1vh;
+    background-color:  transparent;
+}
+select{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+.body{
+    background-color: #2a2b2e !important;
+}
+.content-table{
+    font-family: Gotham;
+    border-collapse: collapse;
+    margin-top: 25px ;
+    width: 100%;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.content-table thead tr{
+    background-color: #099aac;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td{
+    padding: 20px 20px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    color: #f8f9fa;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #28242c;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #099aac;
+}
+.content-table tbody tr:active{
+    font-weight: bold;
+    background-color: #099aac;
+}
+
+.content-table tbody tr:hover{
+    font-weight: bold;
+    color: white !important;
+    background-color: #099aac;
+}
+
+
+.form-content{
+    margin: 25px 0;
+    opacity: 90%;
+    color: white;
+    background: #28242c;
+    border-radius: 20px;
+}
+.fieldset .legend .row{
+    padding: 12px 12px;
+}
+input{
+    border: 3px solid #099aac;
+    border-radius: 10px;
+    padding: 10px;
+}
+input:focus,textarea:focus,select:focus
+{
+    border: 3px solid red;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+textarea{
+    resize: none;
+    border: 3px solid #099aac;
+    border-radius: 10px;
+}
+#bookId,#appId{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #099aac;
+    font-family: Gotham;
+}
+.table-wrapper {
+    max-height: 530px;
+    width: auto;
+    overflow: auto;
+    display:inline-block;
+}
+
+#containment{
+    margin-top: 90px;
+    margin-bottom: auto;
+    background-color: #2a2b2e;
+}
+.filterTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.body{
+    color: white;
+    background-color: #2a2b2e !important;
+}
+i:hover{
+    cursor: pointer;
+}
+.content-table{
+    font-family: Gotham;
+    border-collapse: collapse;
+    margin-top: 25px ;
+    width: 100%;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.content-table thead tr{
+    background-color: #099aac;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td{
+    text-align: center;
+    padding: 20px 20px;
+}
+td{
+    text-align: center;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    color: #f8f9fa;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #28242c;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #099aac;
+}
+.content-table tbody tr:active{
+    font-weight: bold;
+    background-color: #099aac;
+}
+
+select{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+.content-table tbody tr:hover{
+    font-weight: bold;
+    color: white !important;
+    background-color: #72c1cb;
+}
+
+.deleteitem:hover{
+    background-color: rgba(255, 0, 0, 0.74);
+    cursor: pointer;
+}
+#koko{
+    padding: 0;
+    margin: 0;
+}
+#deleteicon:hover{
+    background-color: red;
+}
+.form-select {
+    display: inline-block;
+    box-shadow: 0 0 5px #818181;
+}
+
+.form-select:hover {
+    box-shadow: 0 0 5px #099aac;
+}
+
+.form-select:focus {
+    box-shadow: 0 0 5px #099aac;
+}
+
+.container .container-fluid {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+fieldset {
+    border-top: 2px solid #099aac !important;
+    /*margin: 4vh 10vh 4vh;*/
+    background-color:  #2b292d;
+    color: white;
+
+}
+#cartId{
+    color: white;
+}
+#guc{
+    color: white;
+}
+#buycart{
+    color: white;
+}
+.legend{
+    color: white;
+}
+.p-5{
+    padding: 1rem !important;
+}
+input{
+    border: 2px solid #099aac;
+    border-radius: 10px;
+}
+input:focus{
+    box-shadow: 0 0 2vh #099aac;
+}
+.cancelcart:hover{
+    background-color: #ac0909;
+}
+.buycart:hover{
+    background-color: green;
+}

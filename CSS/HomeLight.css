@@ -1,0 +1,91 @@
+
+.carousel-caption {
+    top: 200px;
+    bottom: auto;
+    text-align: left;
+    color: #f8f9fa;
+}
+
+#carouselExampleFade{
+    margin-top: 10vh;
+}
+
+    .flip-card {
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        scale: 1;
+        background-color: transparent;
+        width: 45vh;
+        height: 45vh;
+        /*border: 3px solid #f1f1f1;*/
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    }
+
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+    .flip-card:hover{
+        transform: scale(1.1);
+        transition-duration: 1s;
+    }
+    /* Do a horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+        position: absolute;
+        transform: rotateY(180deg);
+        box-shadow: 0px 0.5rem 1rem #099aac;
+    }
+    .storeItems h1{
+        width:50px;
+        word-wrap: break-word;
+    }
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+    }
+
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+        /*background-color: hsl(187, 66%, 68%, 0.001);*/
+        color: black;
+        background-color: white;
+    }
+
+    /* Style the back side */
+    .flip-card-back {
+        position: absolute;
+        background-color: white;
+        color: #099aac;
+        transform: rotateY(180deg);
+    }
+
+    .DoctorImage{
+        margin: 0;
+        height: 45vh;
+        width: 45vh;
+    }
+    . h5{
+        width:50px;
+        word-wrap: break-word;
+    }
+
+    #contentId{
+        border-bottom: 2px #099aac solid;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        overflow: auto;
+    }
+
+    .txt{
+        color:black;
+    }

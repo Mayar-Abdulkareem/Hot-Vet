@@ -1,0 +1,105 @@
+i:hover{
+    cursor: pointer;
+}
+.content-table{
+    font-family: Gotham;
+    border-collapse: collapse;
+    margin-top: 25px ;
+    width: 100%;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.content-table thead tr{
+    background-color: #099aac;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td{
+    text-align: center;
+    padding: 20px 20px;
+}
+td{
+    text-align: center;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #099aac;
+}
+.content-table tbody tr:active{
+    font-weight: bold;
+    background-color: #099aac;
+}
+select{
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+}
+.content-table tbody tr:hover{
+    font-weight: bold;
+    color: white !important;
+    background-color: #72c1cb;
+}
+
+.deleteitem:hover{
+    background-color: rgba(255, 0, 0, 0.74);
+    cursor: pointer;
+}
+#koko{
+    padding: 0;
+    margin: 0;
+}
+#deleteicon:hover{
+    background-color: red;
+}
+.form-select {
+    display: inline-block;
+    box-shadow: 0 0 5px #818181;
+}
+
+.form-select:hover {
+    box-shadow: 0 0 5px #099aac;
+}
+
+.form-select:focus {
+    box-shadow: 0 0 5px #099aac;
+}
+
+.container .container-fluid {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+fieldset {
+    border-top: 2px solid #099aac !important;
+    /*margin: 4vh 10vh 4vh;*/
+    background-color:  #f8f9fa;
+
+}
+.p-5{
+    padding: 1rem !important;
+}
+input{
+    border: 2px solid #099aac;
+    border-radius: 10px;
+}
+input:focus{
+    box-shadow: 0 0 2vh #099aac;
+}
+.cancelcart:hover{
+    background-color: #ac0909;
+}
+.buycart:hover{
+    background-color: green;
+}

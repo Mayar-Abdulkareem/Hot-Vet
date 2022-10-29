@@ -1,0 +1,182 @@
+.containerOrders{
+    width:100% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15vh;
+
+}
+.img-container{
+    position: relative;
+    left: -35%;
+    width: 30%;
+    display: flex;
+    background: transparent;
+}
+div.card{
+    background-color: #28242c;
+    border-style: solid;
+    border-color: #099aac;
+    position: relative;
+    left:-20%;
+    width: 90vh;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0rem 0rem 0rem #099aac;
+    border-radius: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px 10px 30px 20px;
+    color: white;
+    transition:0.3s;
+}
+.card:hover{
+    box-shadow: 0px 0.5rem 1.5rem #099aac;
+    transition: 0.5s;
+    transform:translateY(-5px) ;
+}
+.card-imag{
+    width: 100%;
+    height: 40vh;
+    border-radius: 1.5rem;
+    padding: 15%;
+}
+.card-description{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    border-radius: 1.5rem;
+}
+#containment{
+    margin-top:20vh;
+}
+.orderDetailsContainer{
+    margin-top: 7vh;
+    position: fixed;
+    float:right;
+    width: 35%;
+    height:70%;
+    left:50%;
+    top: 17%;
+    margin-left: 10%;
+    background: #28242c;
+    border-radius: 1.5rem;
+    overflow-y : scroll;
+    overflow-x: hidden;
+}
+
+.orderDetailsP{
+    position: relative;
+    /*top : 5%;*/
+    width: 100%;
+    height:10%;
+    color: #099aac;
+    /*background: #E8E8E8;*/
+    text-align: center;
+    font-size : 10vh;
+    font-family: "Sofia";
+    /*margin-bottom: 15%;*/
+}
+.split {
+    height: 100%;
+    width: 50%;
+    /*position: fixed;*/
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+}
+
+.dot1{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background : #2b292d;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left:-10%;
+    background : #2b292d;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3{
+    position: relative;
+    left:-20%;
+    height: 40px;
+    width: 40px;
+    background : #2b292d;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dots{
+    background: transparent;
+    /*width:80%;*/
+    position: relative;
+    align-content: center;
+    left:20%;
+}
+
+.road1{
+    height: 15px;
+    width: 100px;
+    position: relative;
+    left:-5%;
+    top:-13px;
+    background : #2b292d;
+    display: inline-block;
+}
+
+.road2{
+    height: 15px;
+    width: 100px;
+    position: relative;
+    left:-17%;
+    top:-13px;
+    background : #2b292d;
+    display: inline-block;
+}
+
+.tracking{
+    background: transparent;
+    font-size: 25px;
+    padding-top: 10%;
+    font-family: "Sofia";
+    position: relative;
+    left:10%;
+    color: #099aac;
+}
+
+.trackingLevels{
+    display: inline-block;
+    background: transparent;
+    padding-right: 7%;
+    position: relative;
+    left:-10%;
+    color: #099aac;
+    font-family: "Sofia";
+    font-size: 20px;
+
+}

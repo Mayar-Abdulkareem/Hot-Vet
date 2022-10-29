@@ -1,0 +1,382 @@
+#searchicon:hover{
+    border: 0 solid #099aac;
+    background-color: #099aac;
+
+}
+ul li a.cart .cart-basket {
+    font-size: .6rem;
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    width: 15px;
+    height: 15px;
+    color: #E8E8E8;
+    background-color: #099aac;
+    border-radius: 50%;
+}
+
+.navbar {
+    background-color: #f8f9fa !important;
+    border: none !important;
+    border-width: 0 !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border: 2px solid #099aac;
+    border-radius: 20px;
+}
+
+
+#topLogo {
+    height: 10vh;
+    width: 10vh;
+}
+
+#hotId {
+    font-family: Brush Script MT;
+    color: #28242c;
+}
+
+#vetId {
+    color: #099aac;
+    /*font-family: papyrus;*/
+    font-family: Courier New;
+}
+
+.footerClass {
+    background-color: #f8f9fa;
+    color: #28242c;
+    text-align: center;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border: #28242c solid;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #099aac;
+    border: #099aac solid;
+    border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.shopItemsMenu {
+    color: #099aac;
+    text-decoration: none;
+}
+
+.storeItems {
+    height: 30vh;
+    width: 30vh;
+    margin: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header h1 {
+    font-family: cursive;
+    color: rgba(105, 105, 105, 0.69);
+    text-align: center;
+    margin: 20vh auto 0;
+    width: 130vh;
+    clip-path: inset(top right bottom left);
+    border: double 2px transparent;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    background-image: linear-gradient(to right, white, #f8f9fa, white), radial-gradient(circle at left, white, #17bdd2, white);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation-name: my-animation;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    white-space: nowrap;
+}
+
+@keyframes my-animation {
+    from {
+        clip-path: inset(0px 50% 0px 50%);
+        -webkit-clip-path: inset(0px 50% 0px 50%);
+        width: 35px;
+    }
+    to {
+        clip-path: inset(0px 0px 0px 0px);
+        -webkit-clip-path: inset(0px 0px 0px 0px);
+        width: 130vh;
+    }
+}
+
+.filteringMenu {
+    background-color: #f8f9fa;
+    text-align: left;
+    padding: 2vh;
+}
+
+#lists {
+    display: none;
+}
+
+.col {
+    padding: 1px;
+
+}
+
+.col p {
+    text-align: center;
+    height: fit-content;
+    margin: 0;
+    background-color: #E8E8E8;
+}
+
+.sidenav p {
+    text-align: center;
+    height: fit-content;
+    margin: 0;
+    background-color: #E8E8E8;
+}
+
+.showfilters div {
+    padding: 0;
+    font-size: 16px;
+    background-color: #E8E8E8;
+}
+
+.row label {
+    --bs-gutter-x: 0;
+}
+
+input[type=checkbox] {
+    accent-color: #099aac;
+}
+
+#itemsFiltering {
+    background-color: white;
+    width: 90%;
+    margin: 5vh auto 0;
+    text-align: center;
+}
+
+.flip-card {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+    scale: 1;
+    background-color: aliceblue;
+    width: 30vh;
+    height: 38vh;
+    /*border: 3px solid #f1f1f1;*/
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover {
+    transform: scale(1.3);
+    z-index: 100;
+    transition-duration: 1s;
+}
+
+/* Do a horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    position: absolute;
+    transform: rotateY(180deg);
+    box-shadow: 0px 0.5rem 1rem #099aac;
+}
+
+.storeItems h1 {
+    width: 50px;
+    word-wrap: break-word;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    /*background-color: hsl(187, 66%, 68%, 0.001);*/
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+/* Style the back side */
+.flip-card-back {
+    text-align: center;
+    position: absolute;
+    font-size: small;
+    background-color: white;
+    color: black;
+    font-family: "Times New Roman";
+    transform: rotateY(180deg);
+}
+
+ul li a.cart .cart-basket {
+    font-size: .6rem;
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    width: 15px;
+    height: 15px;
+    color: #E8E8E8;
+    background-color: #099aac;
+    border-radius: 50%;
+}
+
+.sidenav {
+    margin-top: 10vh;
+    height: 90%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #099aac;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+fieldset {
+    border-top: 2px solid #099aac !important;
+    margin: 4vh 10vh 4vh;
+    background-color: #f8f9fa;
+
+}
+
+.p-5 {
+    padding: 1rem !important;
+}
+
+.filtericon span {
+    font-size: 30px !important;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.flip-card-back h1 {
+    background-color: #099aac;
+    font-size: 5vh;
+    font-family: 'Courier New';
+    color: white;
+
+}
+
+.flip-card-front h1 {
+    font-family: 'Courier New';
+    border: .5vh solid white;
+    background-color: #f1f1f1;
+    font-size: 5vh;
+}
+
+.details {
+    font-size: 16px;
+    margin-left: 80%;
+    padding: 0 1vh 0;
+    color: #818181;
+    border-radius: 50%;
+    border: .3vh solid transparent;
+}
+
+.details:hover {
+    border: .3vh solid #099aac;
+    cursor: pointer;
+}
+
+.p-2 span:hover {
+    background-color: #099aac;
+    cursor: pointer;
+}
+
+input[type=search]:focus {
+    box-shadow: 0 0 5px #099aac;
+}
+
+.form-select {
+    width: 20vh;
+    height: 5vh;
+    margin: 1vh 1vh 1vh 5vh;
+    font-size: 15px;
+    box-shadow: 0 0 5px #818181;
+}
+
+.form-select:hover {
+    box-shadow: 0 0 5px #099aac;
+}
+
+.form-select:focus {
+    box-shadow: 0 0 5px #099aac;
+}
+
+#crappy{
+    background-color: #f1f1f1;
+    margin: 4vh;
+    padding: 2vh;
+    border: 1vh solid #099aac;
+}
+#lo #lo2{
+    color: white
+    background-color: #f8f9fa;
+}
